@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNO Score Tracker</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_gain">Save · +%1$d</string>
+    <string name="action_done">Done</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_start_game_lead"> Start a game</string>
+
+    <!-- Main / tabs -->
+    <string name="tab_play">Play</string>
+    <string name="tab_rules">Rules</string>
+    <string name="tab_stats">Stats</string>
+    <string name="main_title_play">UNO Score Tracker</string>
+    <string name="main_title_rules">Rulebook</string>
+    <string name="main_title_stats">Stats</string>
+    <string name="main_sub_play">Pick a variant to play</string>
+    <string name="main_sub_rules">Every official variant</string>
+    <string name="main_sub_stats">Leaderboard and history</string>
+    <string name="cd_players">Players</string>
+    <string name="cd_settings">Settings</string>
+    <string name="resume_game">Resume game</string>
+    <string name="resume_detail">Round %1$d · %2$d players</string>
+    <string name="choose_variant">Choose a variant</string>
+    <string name="reskins_note">Themed decks (Minecraft, Marvel, Splash…) use the Original rules and table.</string>
+    <string name="variant_blurb_play">%1$s players · %2$d cards · first to %3$d</string>
+
+    <!-- Setup -->
+    <string name="setup_subtitle">New game</string>
+    <string name="setup_players">Players</string>
+    <string name="setup_add_player">Add a player</string>
+    <string name="cd_add">Add</string>
+    <string name="cd_remove">Remove</string>
+    <string name="setup_teams">Teams</string>
+    <string name="setup_teams_sub">Score to a team instead of a player</string>
+    <string name="setup_team_count">Teams: %1$d</string>
+    <string name="setup_scoring">Scoring</string>
+    <string name="mode_winner_takes">Winner takes</string>
+    <string name="mode_lowest_total">Lowest total</string>
+    <string name="setup_elimination">Elimination (Challenge Game)</string>
+    <string name="setup_elimination_sub">Cross the target and you\'re out; last one in wins</string>
+    <string name="setup_score_limit">Score limit</string>
+    <string name="setup_custom_limit">Custom limit (default %1$d)</string>
+    <string name="setup_start">Start game</string>
+    <string name="fact_first_to">First to %1$d points</string>
+    <string name="fact_seven_zero">7-0 built in</string>
+    <string name="fact_stacking">stacking allowed</string>
+    <string name="dot_join">%1$s.</string>
+
+    <!-- Active game -->
+    <string name="active_subtitle">Round %1$d · first to %2$d</string>
+    <string name="cd_round_history">Round history</string>
+    <string name="cd_rules">Rules</string>
+    <string name="cd_end_game">End game</string>
+    <string name="new_round">New round</string>
+    <string name="view_table">Table</string>
+    <string name="view_standings">Standings</string>
+    <string name="standings">Standings</string>
+    <string name="direction_cw">Clockwise</string>
+    <string name="direction_ccw">Counter-clockwise</string>
+    <string name="active_color">Active color</string>
+    <string name="set_color">set\ncolor</string>
+    <string name="cards_count">%1$d cards</string>
+    <string name="out">out</string>
+    <string name="eliminated">Eliminated</string>
+    <string name="points_to_target">%1$d to target</string>
+    <string name="hand_label">Hand: %1$d</string>
+    <string name="cd_minus">−</string>
+    <string name="cd_plus">+</string>
+    <string name="end_game_title">End this game?</string>
+    <string name="end_game_body">Finish now and crown the current leader as the winner.</string>
+    <string name="end_game_confirm">End game</string>
+    <string name="end_game_dismiss">Keep playing</string>
+    <string name="abandon_game_title">Abandon this game?</string>
+    <string name="abandon_game_body">No points have been scored, so this game is discarded — no winner is recorded.</string>
+    <string name="abandon_game_confirm">Abandon</string>
+
+    <!-- Round entry -->
+    <string name="round_title_score">Score the round</string>
+    <string name="round_title_edit">Edit round</string>
+    <string name="ending_side">Ending side</string>
+    <string name="side_light">Light</string>
+    <string name="side_dark">Dark</string>
+    <string name="who_went_out">Who went out?</string>
+    <string name="who_went_out_joint">Who went out? (one or more)</string>
+    <string name="remaining_hands">Remaining hands</string>
+    <string name="subtotal">subtotal %1$d</string>
+    <string name="eliminated_not_scored">Eliminated this hand — not scored.</string>
+    <string name="entry_cards">Card by card</string>
+    <string name="entry_manual">Manual total</string>
+    <string name="points_held">Points held</string>
+    <string name="tap_to_add">Tap to add cards</string>
+    <string name="added_tap_remove">Added — tap to remove</string>
+    <string name="card_value_label">%1$s · %2$d</string>
+    <string name="knocked_out_25">Knocked out (25+)</string>
+    <string name="kos_by_them">KOs by them: %1$d</string>
+
+    <!-- Round history -->
+    <string name="round_history">Round history</string>
+    <string name="round_history_sub">Tap a round to edit</string>
+    <string name="no_rounds">No rounds recorded yet.</string>
+    <string name="round_number">Round %1$d</string>
+    <string name="went_out_suffix">%1$s · went out</string>
+    <string name="delta_plus">+%1$d</string>
+    <string name="delta_value">%1$d</string>
+
+    <!-- Results -->
+    <string name="game_over">Game over</string>
+    <string name="winner_fallback">Winner</string>
+    <string name="wins">wins!</string>
+    <string name="final_standings">Final standings</string>
+
+    <!-- Stats -->
+    <string name="leaderboard">Leaderboard</string>
+    <string name="leaderboard_empty">Finish a game to start the leaderboard.</string>
+    <string name="recent_games">Recent games</string>
+    <string name="no_finished_games">No finished games yet.</string>
+    <string name="win_pct">%1$d%%</string>
+    <string name="won_of_played">  %1$d/%2$d</string>
+    <string name="winner_rounds">Winner: %1$s · %2$d rounds</string>
+    <string name="dash">—</string>
+
+    <!-- Game detail -->
+    <string name="finished_game">Finished game</string>
+    <string name="won_suffix">%1$s won</string>
+    <string name="cd_delete_game">Delete game</string>
+    <string name="round_by_round">Round by round</string>
+    <string name="winner_tag">%1$s  ·  winner</string>
+    <string name="delete_game_title">Delete this game?</string>
+    <string name="delete_game_body">This removes the game and reverses its leaderboard record. This can\'t be undone.</string>
+    <string name="biometric_delete_game">Delete game</string>
+    <string name="biometric_delete_game_sub">Confirm to delete this game</string>
+
+    <!-- Players roster -->
+    <string name="players_subtitle">Add and remove saved players</string>
+    <string name="new_player_name">New player name</string>
+    <string name="cd_add_player">Add player</string>
+    <string name="roster_empty">No saved players yet. Add a few to reuse them across games.</string>
+    <string name="cd_delete">Delete</string>
+    <string name="delete_player_title">Delete %1$s?</string>
+    <string name="delete_player_body">Past games keep their recorded names; this only removes the player from your roster and leaderboard.</string>
+    <string name="biometric_delete_player">Delete player</string>
+    <string name="biometric_delete_player_sub">Confirm to remove %1$s</string>
+
+    <!-- Manual reader -->
+    <string name="pocket_rulebook">Pocket rulebook</string>
+    <string name="jump_to_scoring">Jump to scoring</string>
+    <string name="action_special_cards">Action &amp; special cards</string>
+    <string name="scoring">Scoring</string>
+    <string name="cd_collapse">Collapse</string>
+    <string name="cd_expand">Expand</string>
+    <string name="scoring_summary">Round winner gains the total value of every opponent\'s remaining cards. First to %1$d.</string>
+    <string name="scoring_alt"> Alternative: each player accrues their held-card value, and the lowest total wins when someone reaches the target.</string>
+    <string name="face_value">face value</string>
+    <string name="points_value">%1$d</string>
+    <string name="bonus_value">+%1$d</string>
+    <string name="glossary_numbers">Number cards</string>
+    <string name="glossary_actions">Color action cards</string>
+    <string name="glossary_wilds">Wild cards</string>
+    <string name="fact_players">%1$s players</string>
+    <string name="fact_cards">%1$d cards</string>
+    <string name="fact_stacking_chip">Stacking ✓</string>
+    <string name="fact_seven_zero_chip">7-0 ✓</string>
+    <string name="source_note">Rules summarized in our own words. Official sheet: %1$s</string>
+    <string name="variant_blurb_rules">%1$s · %2$s · %3$d cards</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color">Dynamic color</string>
+    <string name="dynamic_color_sub">Use your wallpaper palette (Android 12+)</string>
+    <string name="amoled">AMOLED black</string>
+    <string name="amoled_sub">Pure-black surfaces in dark mode</string>
+    <string name="feedback">Feedback</string>
+    <string name="haptics">Haptics</string>
+    <string name="haptics_sub">Vibration on taps and confirmations</string>
+    <string name="settings_app">App</string>
+    <string name="about_and_data">About and data</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="about_subtitle">App info and credits</string>
+    <string name="about_tagline">Ad-free. Open source. Always.</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="credits">Credits</string>
+    <string name="made_by">Made by CrsMthw and Claude</string>
+    <string name="made_by_sub">App design and development</string>
+    <string name="github">GitHub</string>
+    <string name="github_handle">github.com/CrsMthw</string>
+    <string name="cd_buy_me_coffee">Buy me a coffee</string>
+    <string name="about_blurb">An offline score tracker and pocket rulebook for UNO and its official variants — Flip, Liar\'s, No Mercy, All Wild, Attack, Triple Play, and Party.</string>
+    <string name="about_rules_note">Rules are summarized in our own words from official Mattel instruction sheets; tap a manual\'s source link for the verbatim booklet. UNO is a trademark of Mattel; this app is unofficial.</string>
+    <string name="danger_zone">Danger zone</string>
+    <string name="delete_all_history">  Delete all game history and leaderboard</string>
+    <string name="delete_all_keeps">Keeps your saved players and any game in progress.</string>
+    <string name="delete_all_title">Delete all history?</string>
+    <string name="delete_all_body">This permanently removes every finished game and the leaderboard.</string>
+    <string name="action_continue">Continue</string>
+    <string name="delete_all_sure_title">Are you sure?</string>
+    <string name="delete_all_sure_body">This can\'t be undone.</string>
+    <string name="delete_all_confirm">Delete all</string>
+    <string name="biometric_delete_all">Delete all history</string>
+    <string name="biometric_delete_all_sub">Confirm to erase all finished games</string>
+</resources>

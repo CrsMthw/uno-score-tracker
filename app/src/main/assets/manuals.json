@@ -1,0 +1,122 @@
+{
+  "_meta": "Reworded rulebook prose for the in-app manual reader. Quick Facts, the card glossary and the scoring table render from variants.json, so point values live in exactly one place. Rules summarized in our own words from official Mattel sheets; the reader links each variant's source PDF.",
+  "manuals": [
+    {
+      "variantId": "original",
+      "subtitle": "The classic game",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "Be the first to play every card in your hand each round and score points for the cards your opponents still hold. First to 500 points wins the game." },
+        { "key": "contents", "title": "Contents", "body": "108 cards: number cards 0–9 in red, yellow, green and blue (one 0 and two each of 1–9 per color); two each of Skip, Reverse and Draw Two per color; four Wild; four Wild Draw Four. Current retail decks add four more Wilds (a Wild Swap/Shuffle Hands plus three blank customizable Wilds) for 112 — remove them to play the classic game." },
+        { "key": "setup", "title": "Setup", "body": "Shuffle and deal 7 cards to each player. Put the rest face down as the Draw Pile and turn the top card up to start the Discard Pile. The player to the dealer's left goes first; play proceeds clockwise. (If that first card is an action card, see Notes.)" },
+        { "key": "how_to_play", "title": "How to play", "body": "On your turn, play one card that matches the top of the Discard Pile by color, number or symbol — or play a Wild. If you can't (or choose not to) play, draw one card from the Draw Pile; you may play it immediately if it's legal, otherwise your turn ends. When the Draw Pile is empty, reshuffle the discards into a new Draw Pile." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "When you play your second-to-last card, say \"UNO.\" If another player catches you before the next player begins their turn, draw 2 cards. You're safe once you've called it, and you can no longer be caught after the next player's turn begins." },
+        { "key": "going_out", "title": "Going out", "body": "The round ends when a player plays their final card. If that card forces a draw (Draw Two / Wild Draw Four), the next player draws those cards first and they count toward scoring." },
+        { "key": "winning", "title": "Winning", "body": "First to 500 points wins. Alternative (official): track the points each player is caught with each hand; when someone reaches 500, the lowest total wins instead." },
+        { "key": "two_player", "title": "Two-player rules", "body": "Reverse acts as a Skip. After a Skip you may immediately play again; after a Draw Two or Wild Draw Four your opponent draws and the turn returns to you." },
+        { "key": "notes", "title": "Notes", "body": "First card flipped: Draw Two → first player draws 2 and is skipped; Reverse → dealer plays first and direction reverses; Skip → first player is skipped; Wild → the player to the dealer's left names the color; Wild Draw Four → return it to the deck and flip another. House rules: \"Seven-Zero\" (7 = swap a hand, 0 = pass all hands) and \"Stacking\" are popular but not part of the official base game." }
+      ]
+    },
+    {
+      "variantId": "flip",
+      "subtitle": "Two sides, two value tables",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "Same as UNO, but the whole deck has a Light side and a Dark side. Play starts on the Light side; a Flip card turns the entire deck and all hands to the other side. Score the cards your opponents hold using the side the round ended on." },
+        { "key": "contents", "title": "Contents", "body": "112 two-sided cards. Light side: numbers 1–9 in red, green, blue and yellow, plus Draw One, Reverse, Skip and Flip (two each per color), four Wild and four Wild Draw Two. Dark side: numbers 1–9 in pink, teal, orange and purple, plus Draw Five, Reverse, Skip Everyone and Flip (two each per color), four Wild and four Wild Draw Color." },
+        { "key": "setup", "title": "Setup", "body": "Deal 7 cards. Keep the Light side facing you. Form the Draw Pile with the Light side facing down and flip the top card up to start the Discard Pile. The player to the dealer's left begins." },
+        { "key": "how_to_play", "title": "How to play", "body": "Match the top card by number, color or symbol on whichever side is in play. Draw one if you can't play. Always add drawn cards to your hand facing the side currently in play." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "Same as UNO; the penalty is 2 cards." },
+        { "key": "going_out", "title": "Going out", "body": "The round ends when someone empties their hand. If the last card forces a draw, the next player draws first and those cards count." },
+        { "key": "winning", "title": "Winning", "body": "First to 500. Same official lowest-total alternative as UNO." },
+        { "key": "two_player", "title": "Two-player rules", "body": "Reverse acts as a Skip." },
+        { "key": "notes", "title": "Notes", "body": "When a Flip card is turned up to start the round, flip immediately and resolve the resulting top card. Light's Wild Draw Two and Dark's Wild Draw Color are restricted (playable only when you hold no card of the current color) and challengeable like a Wild Draw Four — a wrong challenger draws the penalty plus 2 more." }
+      ]
+    },
+    {
+      "variantId": "liars",
+      "subtitle": "Bluff and challenge",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "Play like UNO, but most cards are played face down and you announce what they are — truthfully or as a bluff. Be first to empty your hand. Get caught lying, or challenge wrongly, and you draw a penalty card." },
+        { "key": "contents", "title": "Contents", "body": "112 cards of two kinds. Regular Cards (no corner circle) are always played face up. Liar's Cards (corner circle) are always played face down. There is one Regular and one Liar's version of every number 0–9 in four colors (80 number cards). All Draw Two, Reverse and Skip cards are Liar's Cards (two each per color). Plus two Wild Draw Four and six Wild Liar's Challenge (the only wilds, both always face up). There are no plain Wild cards." },
+        { "key": "setup", "title": "Setup", "body": "Deal 7. Draw Pile face down; flip the top card to start the Discard Pile. The player to the dealer's left begins, clockwise." },
+        { "key": "how_to_play", "title": "How to play", "body": "On your turn, either play a Regular Card face up that legally matches, or play a Liar's Card face down and declare what it is. Your declared card must be a legal play on the current top card — but it doesn't have to be the truth. You may never play a Regular Card face down. Before the next player goes, any player may challenge a face-down card: told the truth → the challenger draws 1 and the effect resolves; lied → you take the card back and draw 1, and the declared effect doesn't happen; no challenge → the card counts as declared, even if it was a lie. Caught playing a Regular Card face down: take it back and draw 6." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "Whenever you reach one card — including after a 0-pass, a 7-swap, or playing a Wild — you must call \"UNO.\" Caught before the next turn: draw 2." },
+        { "key": "going_out", "title": "Going out", "body": "The round ends when a player empties their hand. A face-down last card can be challenged; if it was a lie you take it back and draw 1 and play continues, if true you win." },
+        { "key": "winning", "title": "Winning", "body": "First to 500." },
+        { "key": "two_player", "title": "Two-player rules", "body": "Reverse acts as a Skip." },
+        { "key": "notes", "title": "Notes", "body": "A wrong challenge and a caught lie each cost exactly 1 card — not 3. The 0-pass (everyone passes their whole hand to the next player) and 7-swap (swap hands with a chosen player) are mandatory here, unlike base UNO. The Wild Liar's Challenge can let multiple players go out at once as joint winners." }
+      ]
+    },
+    {
+      "variantId": "no_mercy",
+      "subtitle": "Brutal — elimination and 1000 points",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "A brutal UNO. Win by emptying your hand or by knocking everyone else out via the Mercy Rule. Bigger draw cards, mandatory stacking and 7-0, and player elimination." },
+        { "key": "contents", "title": "Contents", "body": "168 cards (about 40% more than classic), including extra number cards and four each of the new actions. There are no plain Wild or Wild Draw Four cards." },
+        { "key": "setup", "title": "Setup", "body": "Deal 7. Draw Pile face down; flip the top to start the Discard Pile (ignore an action card and flip again). The player to the dealer's left begins, clockwise." },
+        { "key": "how_to_play", "title": "How to play", "body": "Match by color, number or symbol. If you can't play, you must keep drawing until you draw a card you can play, then play it. Stacking: against any Draw card (+2, +4, +6, +10) you may play a Draw card of equal or higher value to pass the growing penalty along; it accumulates until someone can't stack and draws the whole pile. 7's Swap: play a 7 to swap your whole hand with a chosen player. 0's Pass: play a 0 and everyone passes their hand to the next player in the current direction." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "At one card; caught before the next turn, draw 2." },
+        { "key": "going_out", "title": "Going out", "body": "Empty your hand to win the hand. (A 7 forces a swap first, so you can't cleanly go out on a 7.) Forced draws from a final card are taken before scoring." },
+        { "key": "winning", "title": "Winning", "body": "First to 1000 points, or be the last player standing. Mercy Rule: reach 25 or more cards and you're eliminated — set your hand aside (it's reshuffled in when the Draw Pile runs out). You score 250 points for each player you knock out, and a knocked-out player's hand is not scored." },
+        { "key": "two_player", "title": "Two-player rules", "body": "Reverse acts as a Skip." },
+        { "key": "notes", "title": "Notes", "body": "Wild Reverse Draw 4 reverses, then the next player in the new direction draws 4 (stackable); with two players it skips your opponent and makes you draw 4 unless you stack. Wild Color Roulette: the next player picks a color, then reveals cards from the Draw Pile until one matches that color, takes them all, and is skipped." }
+      ]
+    },
+    {
+      "variantId": "all_wild",
+      "subtitle": "Every card is wild",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "Every card is wild — no matching colors or numbers. Just play a card. Be first to empty your hand; the special cards create the chaos." },
+        { "key": "contents", "title": "Contents", "body": "112 cards, all wild. Most are plain Wild cards; the rest are Wild Action cards. There are no number cards." },
+        { "key": "setup", "title": "Setup", "body": "Deal 7. Draw Pile face down; flip the top card to start the Discard Pile (ignore the action if it's a Wild Action card). The player to the dealer's left begins." },
+        { "key": "how_to_play", "title": "How to play", "body": "Play any one card; if it's a Wild Action card, resolve its effect. You may also choose to draw a card instead of playing — then you must either play that drawn card or pass." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "At one card; caught before the next turn, draw 2." },
+        { "key": "going_out", "title": "Going out", "body": "Empty your hand to win the round." },
+        { "key": "winning", "title": "Winning", "body": "First to 500." },
+        { "key": "notes", "title": "Notes", "body": "Wild Targeted Draw Two makes a chosen player draw 2 but does not cost them their turn. Wild Forced Swap makes you swap hands with a chosen player — if either of you ends with one card, that player must call \"UNO.\"" }
+      ]
+    },
+    {
+      "variantId": "attack",
+      "subtitle": "The card-launcher game",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "UNO with a card-shooting Launcher. There are no Draw cards — when you can't play, you press the Launcher, which fires a random number of cards (sometimes none) into your hand. Be first to empty your hand." },
+        { "key": "contents", "title": "Contents", "body": "112 cards: numbers 1–9 in four colors; two each of Hit 2, Reverse and Skip per color; one Discard All and one Trade Hands per color; four Wild; two Wild All Hit; two Wild Hit-Fire. Plus the two-piece electronic Launcher." },
+        { "key": "setup", "title": "Setup", "body": "Assemble the Launcher and place the start card on top to begin the Discard Pile; load the rest of the deck inside. Deal 7 to each player. Rotate the Launcher to face the active player." },
+        { "key": "how_to_play", "title": "How to play", "body": "Match the Discard Pile by number, color or word. If you can't play, press the Launcher button: if cards fire out, add them to your hand; if nothing fires, your turn ends. Any cards left sticking out after firing go to the player who pressed." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "At one card; caught before the next turn, the penalty is pressing the Launcher twice (a random number of cards). Suggesting a play to another player: press the Launcher four times." },
+        { "key": "going_out", "title": "Going out", "body": "Empty your hand — but not on a Trade Hands card. Reshuffle the Discard Pile and reload when it reaches the Launcher's stopper." },
+        { "key": "winning", "title": "Winning", "body": "First to 500. Challenge Game (official alternative): track what each player is caught with; cross the target (suggest 500) and you're eliminated. The last two play head-to-head; whoever next crosses the target loses, and the winner of that final hand wins the game." },
+        { "key": "two_player", "title": "Two-player rules", "body": "Reverse acts as a Skip; after a Skip you play again; after a Hit 2, once your opponent has pressed twice, play returns to you." },
+        { "key": "notes", "title": "Notes", "body": "Hit 2 makes the next player press the Launcher twice. Discard All discards every card of the matching color at once. Wild All Hit makes each other player press once; Wild Hit-Fire makes the next player press repeatedly until it fires. Mega Hit uses these same rules with a larger launcher." }
+      ]
+    },
+    {
+      "variantId": "triple_play",
+      "subtitle": "Three light-up piles",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "UNO with three light-up Discard Piles instead of one. Each turn you may only play to a pile that's lit. Overfill a pile and it overloads, forcing you to draw. Be first to empty your hand." },
+        { "key": "contents", "title": "Contents", "body": "112 cards: numbers 0–9 in four colors; two each of Reverse and Skip per color; two Discard Two of the Same Color per color; four Wild; four Wild Clear; four Wild Give Away. Plus the electronic Triple Play unit." },
+        { "key": "setup", "title": "Setup", "body": "Switch the unit on and place it centrally. Deal 7. Put one card face up on each of the three Discard Pile spaces; the rest form the Draw Pile. Press \"Go\" to start a round." },
+        { "key": "how_to_play", "title": "How to play", "body": "Match the top card of any lit-up pile by number, color or symbol, then press that pile firmly until it beeps (don't hold longer than about 2 seconds or you reset its counter). You may play to only one pile per turn. Can't play? Draw one; if still unplayable, press an available pile to advance the counter. Each pile's light runs green → yellow → red as it fills. If your card overloads a pile, the display flashes a number (1–4) and you draw that many cards." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "At one card; caught before the next turn, draw 2." },
+        { "key": "going_out", "title": "Going out", "body": "Play your last card to a lit pile — but if that play overloads the pile, you can't go out; draw the indicated cards and continue." },
+        { "key": "winning", "title": "Winning", "body": "First to 500. Same official lowest-total alternative as UNO. Challenge Game: elimination at a target (suggest 500); the last two go head-to-head, crossing the target loses, and the winner of the final hand wins." },
+        { "key": "notes", "title": "Notes", "body": "Wild: unlike classic UNO you don't call the color — the next player to play on that pile sets it. Wild Clear resets a pile's counter to green. Wild Give Away: if it overloads, hand the cards you'd have drawn to any player(s) you choose. Timer Mode: play within the on-screen countdown each turn; miss it and you take back any attempted card and draw 6." }
+      ]
+    },
+    {
+      "variantId": "party",
+      "subtitle": "Built for big groups",
+      "sections": [
+        { "key": "object", "title": "Object", "body": "UNO built for big groups — a double-size deck and new cards that target the whole table. Be first to empty your hand." },
+        { "key": "contents", "title": "Contents", "body": "224 cards, plus a Direction Tracker card and Link cards kept to the side. Includes the classic actions plus Point Taken, Wild Pile Up and Wild Drawn Together." },
+        { "key": "setup", "title": "Setup", "body": "Remove the Direction Tracker and Link cards. Deal 7. Form the Draw Pile and flip the top card to start the Discard Pile (ignore a starting action). Put the Direction Tracker out with the clockwise arrow up. The player to the dealer's left begins." },
+        { "key": "how_to_play", "title": "How to play", "body": "Match by color, number or symbol, or play a Wild. If you can't match, draw one; you may play it if legal. You may also choose to draw even when you could play. Speed Play: if you hold a number card matching both the number and color on top, you may play it out of turn; play then continues from you. Too slow and you miss the chance; play a wrong card by mistake and you take it back plus draw one." },
+        { "key": "calling_uno", "title": "Calling \"UNO!\"", "body": "At one card; caught before the next turn, draw 2." },
+        { "key": "going_out", "title": "Going out", "body": "Empty your hand to win the round." },
+        { "key": "winning", "title": "Winning", "body": "First to 500." },
+        { "key": "notes", "title": "Notes", "body": "Point Taken: count down 3-2-1 and everyone points at one player; each draws one card per finger aimed at them, up to 5. Wild Pile Up starts a same-color mini-pile passed around — the first player who can't match takes it all. Wild Drawn Together links two chosen players: whenever one must draw, the other draws the same amount (a Point Taken ends links)." }
+      ]
+    }
+  ]
+}
